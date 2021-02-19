@@ -2,7 +2,7 @@ package com.company;
 import java.io.*;
 import java.net.*;
 public class Client  {
-    //Client - Server two Way Communication using Socket Programming in Java{Single Machine}
+    //Client - Server two Way Communication using Socket Programming in Java{Two Machine}
     public static void main(String[] args) throws Exception {
         try {
             Socket sk = new Socket("192.168.43.154",8080); // creating socket class object.
